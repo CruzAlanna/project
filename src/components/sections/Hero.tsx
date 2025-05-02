@@ -64,10 +64,9 @@ const Hero = () => {
             transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
             whileHover={{ scale: 1.05 }}
           >
-            {/* TODO: Replace with your actual profile photo */}
             <div className="w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl">
               <img 
-                src="https://images.pexels.com/photos/3586798/pexels-photo-3586798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                src="src/assets/IMG-3642.jpg" 
                 alt="Alanna Cruz" 
                 className="w-full h-full object-cover"
               />

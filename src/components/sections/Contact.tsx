@@ -38,17 +38,17 @@ const Contact = () => {
             
             <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6">
               <motion.a 
-                href="mailto:alannacruz@example.com" 
+                href="mailto:lannikcru@gmail.com" 
                 className="flex items-center gap-2 text-gray-800 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <Mail className="w-5 h-5" />
-                <span>alannacruz@example.com</span>
+                <span>lannikcru@gmail.com</span>
               </motion.a>
               
               <motion.a 
-                href="https://linkedin.com/in/alanna-cruz" 
+                href="https://linkedin.com/in/alanna-cruz-28678934a" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-gray-800 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"

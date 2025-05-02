@@ -17,7 +17,7 @@ export const capstone = {
   title: "Indecisive",
   description: "An application that helps users that struggle with deciding on what to eat and answering that impossible question: \"What should I eat?\" Indecisive offers various methods of assisting the user in figuring out what kinds of foods they're in the mood for when they are not craving anything specific.",
   techStack: ["Rails API", "React", "PostgreSQL"],
-  image: "src/assets/IndecisiveImg.jpeg",
+  image: "/IndecisiveImg.jpeg",
   imageAlt: "Screenshot of Capstone Project",
   liveUrl: "",
   repoUrl: ["https://github.com/CruzAlanna/indecisive_frontend", "https://github.com/CruzAlanna/indecisive_api"]
@@ -27,7 +27,7 @@ export const miniCapstone = {
   title: "BookWorm",
   description: "An application similar to a social media platform where users can add books to the Library, recommend books, write reviews, and connect with other readers through online meetings to discuss their favorite books!",
   techStack: ["Rails API", "React", "PostgreSQL", "CSS"],
-  image: "src/assets/BookWormImg.jpg",
+  image: "/BookWormImg.jpg",
   imageAlt: "Screenshot of Mini-Capstone Project",
   liveUrl: "",
   repoUrl: ["https://github.com/CruzAlanna/bookworm_frontend", "https://github.com/CruzAlanna/bookworm_api_updated_react"]
@@ -47,7 +47,7 @@ export const projects = [
     title: "PlaylistApp",
     description: "An application allows the user to create their own playlist of songs that they like. The user is able to add and delete songs from their playlist, they are also able to add certain songs to their favorites! They can switch to view all songs or to view only their favorited songs.",
     techStack: ["Node", "HTML", "CSS"],
-    image: "src/assets/PlaylistAppImg.jpeg",
+    image: "/PlaylistAppImg.jpeg",
     imageAlt: "Screenshot of Playlist App",
     liveUrl: "",
     repoUrl: "https://github.com/CruzAlanna/javascript-practice/tree/main/PlaylistApp"

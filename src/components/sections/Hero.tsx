@@ -66,7 +66,7 @@ const Hero = () => {
           >
             <div className="w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl">
               <img 
-                src="src/assets/IMG-3642.jpg" 
+                src="/IMG-3642.jpg" 
                 alt="Alanna Cruz" 
                 className="w-full h-full object-cover"
               />

@@ -9,14 +9,14 @@ export const funFacts = [
 ];
 
 export const skills = [
-  "Ruby", "Rails", "JavaScript", "React", "PostgreSQL",
-  "HTML", "CSS", "Git"
+  "Ruby", "Rails", "JavaScript","CSS", "React + Vite", "PostgreSQL",
+  "HTML", "Tailwind CSS", "GitHub" 
 ];
 
 export const capstone = {
   title: "Indecisive",
   description: "An application that helps users that struggle with deciding on what to eat and answering that impossible question: \"What should I eat?\" Indecisive offers various methods of assisting the user in figuring out what kinds of foods they're in the mood for when they are not craving anything specific.",
-  techStack: ["Rails API", "React", "PostgreSQL"],
+  techStack: ["Rails API", "React + Vite", "PostgreSQL", "Tailwind CSS"],
   image: "/IndecisiveImg.jpeg",
   imageAlt: "Screenshot of Capstone Project",
   liveUrl: "",
@@ -26,7 +26,7 @@ export const capstone = {
 export const miniCapstone = {
   title: "BookWorm",
   description: "An application similar to a social media platform where users can add books to the Library, recommend books, write reviews, and connect with other readers through online meetings to discuss their favorite books!",
-  techStack: ["Rails API", "React", "PostgreSQL", "CSS"],
+  techStack: ["Rails API", "React + Vite", "PostgreSQL", "CSS"],
   image: "/BookWormImg.jpg",
   imageAlt: "Screenshot of Mini-Capstone Project",
   liveUrl: "",

@@ -4,8 +4,8 @@ export const siteMeta = {
 };
 
 export const funFacts = [
-  "I love thrifting, you never know what hidden gems you can find!",
-  "I also love music and singing, especially to my daughter."
+  "I am always eager to learn, expand my skills and knowledge, and grow as a developer!",
+  "I value my family, and love music. I especially love singing to my daughter."
 ];
 
 export const skills = [

@@ -1,8 +1,7 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import FeaturedProject from '../ui/FeaturedProject';
-import ProjectCard from '../ui/ProjectCard';
-import { capstone, miniCapstone, projects } from '../../data/portfolioData';
+import { capstone, csgAssistant } from '../../data/portfolioData';
 
 const Projects = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -41,44 +40,16 @@ const Projects = () => {
           />
           
           <FeaturedProject 
-            title={miniCapstone.title}
-            description={miniCapstone.description}
-            techStack={miniCapstone.techStack}
-            image={miniCapstone.image}
-            imageAlt={miniCapstone.imageAlt}
-            liveUrl={miniCapstone.liveUrl}
-            repoUrl={miniCapstone.repoUrl}
+            title={csgAssistant.title}
+            description={csgAssistant.description}
+            techStack={csgAssistant.techStack}
+            image={csgAssistant.image}
+            imageAlt={csgAssistant.imageAlt}
+            liveUrl={csgAssistant.liveUrl}
+            repoUrl={csgAssistant.repoUrl}
             reverse={true}
           />
         </div>
-        
-        {projects.length > 0 && (
-          <div>
-            <motion.h3 
-              className="text-2xl font-semibold mb-8 text-gray-800 dark:text-gray-200"
-              initial={{ opacity: 0 }}
-              animate={isInView ? { opacity: 1 } : { opacity: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              Other Projects
-            </motion.h3>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {projects.map((project, index) => (
-                <ProjectCard 
-                  key={index}
-                  title={project.title}
-                  description={project.description}
-                  techStack={project.techStack}
-                  image={project.image}
-                  imageAlt={project.imageAlt}
-                  liveUrl={project.liveUrl}
-                  repoUrl={project.repoUrl}
-                />
-              ))}
-            </div>
-          </div>
-        )}
       </div>
     </section>
   );

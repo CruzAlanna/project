@@ -10,7 +10,7 @@ export const funFacts = [
 
 export const skills = [
   "Ruby", "Rails", "JavaScript","CSS", "React + Vite", "PostgreSQL",
-  "HTML", "Tailwind CSS", "GitHub" 
+  "HTML", "Tailwind CSS", "Python", "GitHub" 
 ];
 
 export const capstone = {
